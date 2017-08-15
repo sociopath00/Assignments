@@ -7,6 +7,7 @@ Problem statement: Write a python script for finding the maximum semantic simila
 
 
 (sr no)  (word1)     (word2)         (path_simi) (lch_simi) (wup_simi) (max_simi)
+
 1	computer	keyboard         ?
 2	Jerusalem	Israel           ?
 .
@@ -32,7 +33,7 @@ Correct date patterns:
         9.9.1994
 		6.02.2006
     
-    Incorrect date patterns:
+Incorrect date patterns:
 		02-29-2011  ---- (months should be between 1 to 12)
 		32-12-2011  ---- (day should be between 1 to 31)
 		01@11@2011  ---- (we don't use special symbols like @,#,$,%,^,&,*,*! for writing date pattern)
